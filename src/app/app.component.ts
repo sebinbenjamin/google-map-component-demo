@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'gmap';
+  title = 'Google Map';
+  center = { lat: 10.52522, lng: 76.214492 };
+  zoom = 14;
 }
